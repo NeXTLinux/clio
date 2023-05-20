@@ -1,11 +1,11 @@
 package clio
 
 import (
+	partybus "github.com/nextlinux/gopartybus"
 	"github.com/spf13/pflag"
-	"github.com/wagoodman/go-partybus"
 
 	"github.com/nextlinux/fangs"
-	"github.com/nextlinux/gologger"
+	logger "github.com/nextlinux/gologger"
 	"github.com/nextlinux/gologger/adapter/discard"
 )
 
