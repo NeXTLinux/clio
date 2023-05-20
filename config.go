@@ -1,12 +1,12 @@
 package clio
 
 import (
-	partybus "github.com/nextlinux/gopartybus"
 	"github.com/spf13/pflag"
 
 	"github.com/nextlinux/fangs"
 	logger "github.com/nextlinux/gologger"
 	"github.com/nextlinux/gologger/adapter/discard"
+	partybus "github.com/nextlinux/gopartybus"
 )
 
 type Config struct {

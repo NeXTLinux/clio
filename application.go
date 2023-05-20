@@ -6,13 +6,13 @@ import (
 	"strings"
 
 	"github.com/gookit/color"
-	logger "github.com/nextlinux/gologger"
-	partybus "github.com/nextlinux/gopartybus"
 	"github.com/pkg/profile"
 	"github.com/spf13/cobra"
 	"gopkg.in/yaml.v3"
 
 	"github.com/nextlinux/fangs"
+	logger "github.com/nextlinux/gologger"
+	partybus "github.com/nextlinux/gopartybus"
 )
 
 type Initializer func(cfg Config, state State) error

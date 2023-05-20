@@ -1,7 +1,7 @@
 package clio
 
 import (
-	"github.com/nextlinux/gopartybus"
+	partybus "github.com/nextlinux/gopartybus"
 )
 
 type UIConstructor func(Config) ([]UI, error)

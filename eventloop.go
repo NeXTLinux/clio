@@ -5,9 +5,9 @@ import (
 	"errors"
 
 	"github.com/hashicorp/go-multierror"
-	"github.com/nextlinux/gopartybus"
 
-	"github.com/nextlinux/gologger"
+	logger "github.com/nextlinux/gologger"
+	partybus "github.com/nextlinux/gopartybus"
 )
 
 // eventloop listens to worker errors (from execution path), worker events (from a partybus subscription), and
