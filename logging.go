@@ -9,7 +9,7 @@ import (
 	"golang.org/x/term"
 
 	"github.com/nextlinux/fangs"
-	"github.com/nextlinux/gologger"
+	logger "github.com/nextlinux/gologger"
 	"github.com/nextlinux/gologger/adapter/discard"
 	"github.com/nextlinux/gologger/adapter/logrus"
 )

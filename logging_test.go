@@ -11,7 +11,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/nextlinux/gologger"
+	logger "github.com/nextlinux/gologger"
 )
 
 func Test_newLogger(t *testing.T) {

@@ -8,9 +8,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
-	"github.com/nextlinux/gopartybus"
 
 	"github.com/nextlinux/gologger/adapter/discard"
+	partybus "github.com/nextlinux/gopartybus"
 )
 
 const exitEvent partybus.EventType = "testing-exit"
